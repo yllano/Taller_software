@@ -1,0 +1,40 @@
+# Dependencias de Node.js (Ventas)
+sales-express/node_modules/
+
+# Entorno Virtual Python (Inventario)
+inventory-flask/venv/
+inventory-flask/__pycache__/
+inventory-flask/*.pyc
+inventory-flask/*.pyo
+inventory-flask/*.pyd
+
+# Dependencias de PHP/Laravel (Gateway)
+api-gateway-laravel/vendor/
+
+# Archivos de Entorno y Variables Sensibles
+api-gateway-laravel/.env
+api-gateway-laravel/.env.backup
+api-gateway-laravel/.phpunit.result.cache
+sales-express/.env
+sales-express/.env.*
+inventory-flask/.env
+
+# Credenciales de Servicios Externos (Firebase)
+inventory-flask/serviceAccountKey.json
+
+# Archivos de IDE y OS
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+api-gateway-laravel/storage/logs/
